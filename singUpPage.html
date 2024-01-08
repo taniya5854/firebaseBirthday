@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-database-compat.js"></script>
+    <link rel="stylesheet" href="signUpStyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>Sign Up</title>
+    </head>
+    <body>
+        <div class="container">
+            <!-- <h4>Register here to get the b</h4> -->
+            <form id="signupForm">
+                <h4>Tell us your birthdate!</h4>
+                <p class="createAnAccountText">Create an account</p>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control name" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="birthdate">Date of Birth</label>
+                    <input type="date" class="form-control dateOfBirth" id="birthdate" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control emailCls" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control passwordCls" id="password" required>
+                </div>
+                
+                <button type="submit" class="signUpButton" id="signUpBtn">Sign Up</button>
+                <br/>
+                <br/>
+                <div class="login-link">
+                    <p class="loginText">Already have an account? <a href="loginPage.html" id="signInBtn">Login here</a></p>
+                </div>
+                <!-- <button type="button" class="btn btn-primary" id="signInBtn">Sign In</button> -->
+            </form>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      
+        <script src="signUpScript.js"></script>
+  
+    </body>
+  </html>

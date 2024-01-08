@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-database-compat.js"></script>
+    <link rel="stylesheet" href="signUpStyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="loginStyle.css">
+    <title>Login</title>
+  
+</head>
+<body>
+
+  <form id="loginForm">
+    <h4>Welcome back!</h4>
+    <p class="loginText">Log in to access your account.</p>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control emailCls" id="email" required>
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control passwordCls" id="password" required>
+    </div>
+    <button type="submit" class="loginButton" id="loginBtn">Login</button>
+    <br/>
+    <div class="login-link">
+    </br>
+        <p class="createNewUserText">Don't have an account? <a href="singUpPage.html" id="signUpBtn">Create a new user</a></p>
+    </div>
+    <!-- <button type="button" class="signUpButton" id="signUpBtn">Create New User</button> -->
+  </form>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      
+  <script type="module" src="loginScript.js">
+    
+  </script>
+
+</body>
+</html>
