@@ -1,4 +1,4 @@
-# Birthday Quote Generator
+# Firebase Birthday Quote Generator
 
 ## Overview
 This project involves intermediate JavaScript and Firebase concepts. It includes a sign-up page, Firebase authentication, and real-time database integration. The application calculates and displays the days left until a user's birthday, showing a personalized birthday message and a random quote if the birthday is today.
