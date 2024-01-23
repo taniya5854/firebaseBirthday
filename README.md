@@ -11,23 +11,18 @@ This project involves intermediate JavaScript and Firebase concepts. It includes
 - [References](#references)
 
 ## TO-DO
-- [x] Create an InputField component that props for the appropriate data. For example: name, label,
-value, placeholder, etc.
-- [x] React components for your login and register forms. Use the InputField component you created
-for the form fields.
+- [x] Create a sign-up page that collects user information.
 - [x] Use a date picker for the user's birthdate.
 - [x] Implement Firebase Auth and Realtime Database to store user data.
-- [x] Calculate and display the days left until the user's birthday.
+- [x] Calculate and display days left until the user's birthday.
 - [x] Show a happy birthday message and a random quote if it's the user's birthday.
 - [x] Display the countdown if it's not the user's birthday.
 - [x] Implement user login/logout functionality.
-
 ## Setup
 ### Prerequisites
 Make sure you have the following installed on your machine:
 - Node.js
 - npm (Node Package Manager)
-- create-react-app app-name (for creating a react app)
 - Visual Studio Code
 
 ### Firebase Project Setup
